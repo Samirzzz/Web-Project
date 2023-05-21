@@ -1,0 +1,23 @@
+<html lang="en">
+
+<head>
+
+</head>
+
+<body>
+  <%- include("./partials/nav.ejs") %>
+    <div>
+      <h2>My Profile</h2>
+
+      <img src="/images/<%= user.Image %>" width="100">
+      <div>
+        Name: <%= user.UserName %>
+      </div>
+      <div>
+        Password: <%= user.Password %>
+      </div>
+      <a href="/user/editProfile">Edit Profile</a>
+    </div>
+</body>
+
+</html>

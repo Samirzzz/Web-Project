@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <style>
+        .mySlides {
+            display: none;
+        }
+    </style>
+    <script type='text/javascript' src="./js/slide.js">		</script>
+</head>
+
+<body>
+    <%- include("./partials/nav.ejs") %>
+
+        <h2>Automatic Slideshow</h2>
+        <div>
+            <img class="mySlides" src="/images/1.jpg" style="width:100%">
+            <img class="mySlides" src="/images/2.jpg" style="width:100%">
+            <img class="mySlides" src="/images/3.jpg" style="width:100%">
+        </div>
+
+        <script>
+            slider();
+        </script>
+</body>
+
+</html>
