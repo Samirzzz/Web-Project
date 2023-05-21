@@ -1,0 +1,18 @@
+<html lang="en">
+
+<body>
+    <%- include("./partials/nav.ejs") %>
+        <div>
+            <h1>Login</h1>
+        </div>
+        <div>
+            <form action="/user/profile" method="post">
+                <input type="text" name="un" placeholder="Username">
+                <input type="password" name="pw" placeholder="Password">
+                <input type="submit" name="submit">
+            </form>
+        </div>
+
+</body>
+
+</html>
